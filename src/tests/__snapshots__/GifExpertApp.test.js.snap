@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it will test <GitExpertApp reander de DOM 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    newCategory={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      Category="Peaky Blinders"
+      key="Peaky Blinders"
+    />
+  </ol>
+</Fragment>
+`;

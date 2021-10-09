@@ -12,6 +12,7 @@ const AddCategory = ({newCategory}) => {
 
     const HandleSubmit = (event)=>{
         event.preventDefault();
+
         if(userImput.length>2){
        // setcategory(()=> [...category, "value"]);, para reemplazar esto del otro componente hago:
        newCategory((category)=>[userImput, ...category]);
@@ -24,6 +25,7 @@ const AddCategory = ({newCategory}) => {
     return (
         
             <form onSubmit = {HandleSubmit}>
+            <p>{userImput}</p>
                 <input
                     type= "text" 
                     value = {userImput}

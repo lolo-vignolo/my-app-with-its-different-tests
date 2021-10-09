@@ -13,14 +13,14 @@ export const useFetchGif = (Category)=>{
     useEffect(() => {
 
         getGifs(Category)
-        .then(img =>{
-            setTimeout (()=>{
+        .then(imgs =>{
+            
                 setstate({
-                    data: img,
+                    data: imgs,
                     loading : false
                 });
                  
-            }, 1500);
+           
 
         })}
             

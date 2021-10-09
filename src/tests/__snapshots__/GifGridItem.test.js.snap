@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mostrar que <GifGridItem /> trabaj correctamente testing 1`] = `
+<div
+  className="card animate__animated animate__bounce"
+>
+  <img
+    alt="my web site"
+    src="http://picture.png"
+  />
+  <p>
+    my web site
+  </p>
+</div>
+`;
